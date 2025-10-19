@@ -44,10 +44,10 @@ Pequeno aplicativo feito para consultas metereológicas utilizando  **Vite + Rea
   npm install
 
 4. **Crie um arquivo .env na pasta raiz e adicione:**
-  VITE_OPENWEATHER_KEY=sua_chave_aqui
+  VITE_API_KEY=sua_chave_aqui
 
 5. **Rode o servidor localmente:**
-  Rode o servidor de desenvolvimento:
+  npm run dev
 
 O app estará disponível em:
 👉 http://localhost:5173
