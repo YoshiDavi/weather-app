@@ -35,46 +35,60 @@ Pequeno aplicativo feito para consultas metereológicas utilizando  **Vite + Rea
 ## ⚙️ Como Rodar o Projeto Localmente
 
 1. **Clone o repositório:**
-   git clone https://github.com/YoshiDavi/weather-app.git
+  ```bash
+  git clone https://github.com/YoshiDavi/weather-app.git
+  ```
 
 2. **Acesse a pasta do projeto:**
+  ```bash
   cd weather-app
+  ```
 
 3. **Instale as dependências**
+  ```bash
   npm install
+  ```
 
 4. **Crie um arquivo .env na pasta raiz e adicione:**
+  ```bash
   VITE_API_KEY=sua_chave_aqui
+  ```
 
 5. **Rode o servidor localmente:**
+  ```bash
   npm run dev
+  ```
 
 O app estará disponível em:
-👉 http://localhost:5173
+  ```bash
+  👉 http://localhost:5173
+  ```
 
 ------------------------------------------------------------
 
 ## Estrutura do projeto
-
-weather-app/  
-├── public/  
-├── src/ 
-|   ├── components/
-|   ├── services/
-│   ├── img/  
-│   ├── App.tsx  
-│   ├── index.css  
-│   ├── main.tsx  
-│   └── ...  
-├── .env  
-├── .gitignore  
-├── package.json  
-├── tailwind.config.ts  
+```bash
+weather-app/
+├── public/
+├── src/
+│   ├── components/
+│   ├── services/
+│   ├── img/
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── ...
+├── .env
+├── .gitignore
+├── package.json
+├── tailwind.config.ts
 └── vite.config.ts  
-
+```
 ------------------------------------------------------------
 
 ## Autor
+```bash
 Davi Pereira
 📧 davipereira24062003@gmail.com
 🔗 github.com/YoshiDavi
+```
