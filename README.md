@@ -58,7 +58,9 @@ O app estará disponível em:
 
 weather-app/  
 ├── public/  
-├── src/  
+├── src/ 
+|   ├── components/
+|   ├── services/
 │   ├── img/  
 │   ├── App.tsx  
 │   ├── index.css  
